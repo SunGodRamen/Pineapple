@@ -1,6 +1,0 @@
-[submodule "module/core"]
-	path = module/core
-	url = git@github.com:SunGodRamen/Pineapple-Core.git
-[submodule "module/script"]
-	path = module/script
-	url = git@github.com:SunGodRamen/Pineapple-Store.git
