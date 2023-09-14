@@ -1,0 +1,9 @@
+[submodule "src/core"]
+	path = src/core
+	url = git@github.com:SunGodRamen/Pineapple-Core.git
+[submodule "src/gui"]
+	path = src/gui
+	url = git@github.com:SunGodRamen/Pineapple-Gooey.git
+[submodule "src/script"]
+	path = src/script
+	url = git@github.com:SunGodRamen/Pineapple-Store.git
