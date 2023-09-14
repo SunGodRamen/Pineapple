@@ -1,0 +1,6 @@
+[workspace]
+name = "Pineapple"
+members = [
+  "modules/gui/src-tauri", 
+  "modules/core"
+]

@@ -1,0 +1,28 @@
+# Rust
+/target
+**/Cargo.lock  # If you decide not to commit Cargo.lock for libraries, as discussed earlier
+
+# Node (for your React component)
+node_modules/
+.npm/
+yarn.lock  # Consider committing this if you're using Yarn to ensure consistent dependencies
+npm-debug.log*
+yarn-error.log
+
+# Tauri (specific settings might vary)
+/src-tauri/target/
+/src-tauri/tauri.conf.json
+
+# AutoHotkey (this depends on your build and tooling, so it's a generic suggestion)
+*.compiled
+
+# Common files
+.DS_Store  # Mac folder settings
+*.log      # Log files
+*.swp      # Vim swap files
+*.bak      # Backup files
+*.tmp      # Temporary files
+.idea/     # JetBrains IDE settings
+
+# Add any other specific files or directories that you know should not be in version control.
+.vscode/
